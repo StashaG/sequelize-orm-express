@@ -1,0 +1,14 @@
+{
+  "development": {
+    "dialect": "postgres",
+    "storage": "development.db"
+  },
+  "test": {
+    "dialect": "postgres",
+    "storage": "test.db"
+  },
+  "production": {
+    "dialect": "postgres",
+    "storage": "production.db"
+  }
+}
